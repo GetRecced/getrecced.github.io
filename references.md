@@ -1,3 +1,5 @@
+# References
+
 [1] Julian McAuley and Jure Leskovec. 2013. Hidden factors and hidden topics: understanding rating dimensions
 with review text. In Proceedings of the 7th ACM conference on Recommender systems (RecSys '13). ACM, New
 York, NY, USA, 165-172. DOI=<a href="http://dx.doi.org/10.1145/2507157.2507163">http://dx.doi.org/10.1145/2507157.2507163</a>
