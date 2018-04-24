@@ -84,7 +84,7 @@ In this approach we considered user-user collaborative filtering. We have used P
 
 #### Latent Dirichlet Allocation (LDA)
 Every word in a review texts belongs to one or more topics. Using LDA, we can only observe the text and words,  not the topic themselves. We tried to find these hidden topics in the text reviews and below is the distribution of these topics. 
-!https://github.com/GetRecced/IR670_Spring2018/blob/master/Images/Data%20Analysis/LDA_Topics.png!
+![LDA](https://github.com/GetRecced/IR670_Spring2018/blob/master/Images/Data%20Analysis/LDA_Topics.png)
 Once we get the word distribution per topic, for each document we calculate the topic distributions. Here, all the reviews on one product are considered as one document. Similarly, all the reviews given by one user are considered as one document.
 
 #### Hidden Factors as Topics (HFT)
@@ -116,7 +116,7 @@ Our metrics for evaluation are Root Mean Squared Error (RMSE) and Mean Absolute 
 
 ## Findings
 
-![Table Get Recced]("{{"images/Results%20Table.png"}}")
+![Table Results](https://github.com/GetRecced/IR670_Spring2018/blob/master/Images/Results%20Table.png)
 
 * In line with our original hypothesis, we can see that using the review text in combination with the numerical ratings hailed better results in terms of both RMSE and MAE.
 * The HFT model performed the best with an **RMSE of 1.1** on the whole 750K reviews, and an **RMSE of 1.02** on 20K reviews. 
