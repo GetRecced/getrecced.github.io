@@ -17,7 +17,7 @@ We outline below at a high level what programming languages we used, as well as 
 #### C++
 * Running of HFT models with custom modifications
 
-## Libraries/Packages:
+## Libraries/Packages
 
 | Library Name  | Usage         |  
 | ------------- |-------------|
