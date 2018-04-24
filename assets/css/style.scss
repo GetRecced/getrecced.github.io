@@ -7,20 +7,12 @@ header {
   background: #69A2F1;
 
   h1 {
-    font: 40px/48px 'Copse', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font: 40px/48px 'Copse', "Open sans", Helvetica, Arial, sans-serif;
     color: #FDB050;
-    text-shadow: 0px 2px 0px #235796;
-    margin: 0px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    -o-text-overflow: ellipsis;
-    -ms-text-overflow: ellipsis;
   }
 
   p {
-    color: #d8d8d8;
-    text-shadow:rgba(#000, 0.2) 0 1px 0;
+    color: #f5f5f5;
     font-size: 18px;
     margin: 0px;
   }
@@ -58,7 +50,7 @@ header {
 
     &:hover {
       background: linear_gradient(rgb(255, 231, 136), rgb(255, 231, 136));
-      background-color: #ffeca0;
+      background-color: #ffd09e;
     }
   }
 }
