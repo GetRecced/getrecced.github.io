@@ -11,7 +11,7 @@ Recommender Systems mainly rely on human feedback in the form of ratings and rev
 
 # Dataset 
 
-## Amazon App Dataset
+## Amazon Apps
 
 We used the “Apps for Android” 5-core Dataset which  contains both product ratings and reviews. The dataset  contains 752,937 entries with 87,271 users and 13,209  products (mobile apps). The data is from Amazon.com  and has been collected by Julian McAuley, UCSD. 
 Below is the snippet of the data:
@@ -39,7 +39,7 @@ Below is the snippet of the data:
 }</code></pre>
 
 
-## Dataset Analysis:
+## Analysis
 
 * About half of the items have ratings of 5.
 * Average rating is 3.96. 
@@ -62,7 +62,7 @@ Below is the snippet of the data:
 * The dataset has the special property that each product has at least 5 reviews/ratings and each user has given at least 5 reviews/ratings.
 * For splitting between training and testing data, we moved at least 1 review per user and at least 1 review per product to the test dataset and remaining to the train dataset.
 
-### Experiments
+### Experimentation
 
 We Compared and evaluated the following recommendation models:
 * Global Average Model
@@ -87,6 +87,9 @@ Once we get the word distribution per topic, for each document we calculate the 
 
 #### Hidden Factors as Topics (HFT)
 HFT model takes advantage of both ratings and reviews by combining latent factor model and latent dirichlet allocation model. Here, for each user and item, we calculate 5 latent factors which are also known as user preferences and product properties. The weights for these factors are learnt by considering the reviews in addition to global average ratings and biases.
+
+### Reverse ASIN Lookup
+
 
 ***
 
