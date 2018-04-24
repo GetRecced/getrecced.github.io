@@ -49,10 +49,10 @@ Below is the snippet of the data:
 * On an average, a user rates about 9 items. 
 
 <table>
-    <tr><td><img src='https://github.com/GetRecced/IR670_Spring2018/blob/master/Images/Data%20Analysis/piechart.png'></td><td>
-    <img src='https://github.com/GetRecced/IR670_Spring2018/blob/master/Images/Data%20Analysis/scatter_plot.png'></td></tr>
+    <tr><td><img src="{{'https://github.com/GetRecced/IR670_Spring2018/blob/master/Images/Data%20Analysis/piechart.png'}}"></td><td>
+    <img src="{{'https://github.com/GetRecced/IR670_Spring2018/blob/master/Images/Data%20Analysis/scatter_plot.png'}}"></td></tr>
 <tr><td><img src="{{"images/histogram_%23ratings%20per%20user.png"}}"></td><td>
-    <img src='https://github.com/GetRecced/IR670_Spring2018/blob/master/Images/Data%20Analysis/histogram_%23ratings%20per%20user.png'></td></tr>
+    <img src="{{'https://github.com/GetRecced/IR670_Spring2018/blob/master/Images/Data%20Analysis/histogram_%23ratings%20per%20user.png'}}"></td></tr>
 </table>
 
 ***
