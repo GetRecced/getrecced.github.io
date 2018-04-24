@@ -49,10 +49,10 @@ Below is the snippet of the data:
 * On an average, a user rates about 9 items. 
 
 <table>
-    <tr><td><img src="{{"https://github.com/GetRecced/IR670_Spring2018/blob/master/Images/Data%20Analysis/piechart.png"}}"></td><td>
-    <img src="{{"https://github.com/GetRecced/IR670_Spring2018/blob/master/Images/Data%20Analysis/scatter_plot.png"}}"></td></tr>
+    <tr><td><img src="{{"images/Data%20Analysis/piechart.png"}}"></td><td>
+    <img src="{{"images/Data%20Analysis/scatter_plot.png"}}"></td></tr>
 <tr><td><img src="{{"images/histogram_%23ratings%20per%20user.png"}}"></td><td>
-    <img src="{{"https://github.com/GetRecced/IR670_Spring2018/blob/master/Images/Data%20Analysis/histogram_%23ratings%20per%20user.png"}}"></td></tr>
+    <img src="{{"images/Data%20Analysis/histogram_%23ratings%20per%20user.png"}}"></td></tr>
 </table>
 
 ***
@@ -116,7 +116,8 @@ Our metrics for evaluation are Root Mean Squared Error (RMSE) and Mean Absolute 
 
 ## Findings
 
-![Results Table Get Recced](https://github.com/GetRecced/IR670_Spring2018/blob/master/Images/Results/Results%20Table.png)
+![
+s Table Get Recced]("{{"images/Results%20Table.png"}}")
 
 * In line with our original hypothesis, we can see that using the review text in combination with the numerical ratings hailed better results in terms of both RMSE and MAE.
 * The HFT model performed the best with an **RMSE of 1.1** on the whole 750K reviews, and an **RMSE of 1.02** on 20K reviews. 
