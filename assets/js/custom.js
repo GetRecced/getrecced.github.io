@@ -3,5 +3,5 @@ $(document).ready ( function() {
     if ($(this).hasClass("tag-h2") || $(this).hasClass("tag-h3")) {
          $(this).remove()
     }
-  }
+  })
 });
