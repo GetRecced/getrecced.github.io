@@ -35,43 +35,8 @@ header {
       background-color: #ffd09e;
     }
   }
- .downloads {
-    float: right;
-    margin:0 45px 0 0;
-
-    span {
-      float:left;
-      line-height:52px;
-      font-size:90%;
-      color:#9d7f0d;
-      text-transform:uppercase;
-      text-shadow:rgba(#fff, 0.2) 0 1px 0;
-    }
-  }
-
-  ul {
-    list-style:none;
-    height:40px;
-    padding:0;
-    float: left;
-    margin-left:10px;
-
-    li {
-      display:inline;
-
-      a.button {
-        background-color: #FFE788;
-      }
-    }
-  }
 
   #logo {
-    position:absolute;
-    height: 36px;
-    width: 36px;
-    right:7px;
-    top:7px;
-    display: block;
     background: url(https://img.etsystatic.com/il/6e6c0f/1135579423/il_340x270.1135579423_elvb.jpg?version=0);
   }
 }
