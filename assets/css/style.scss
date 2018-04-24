@@ -5,12 +5,14 @@
 
 body {
   background: #eaf3ff;
+  font-family: "Open Sans";
 }
 header {
   background: #69A2F1;
 
   h1 {
-    font: 40px/48px 'Copse', "Open sans", Helvetica, Arial, sans-serif;
+    font: 40px/48px "Open Sans";
+    font-weight: bold;
     color: #FDB050;
   }
 
