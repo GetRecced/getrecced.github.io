@@ -1,3 +1,5 @@
+In this project we examined how recommender systems work (better or worse) if we take advantage of the review texts along with the review ratings. We aimed to combine latent ratings with latent review topics and analyze the results. Our assumption was that combining the review text with ratings would help the recommender system make better predictions. Hence, we compared different models on Amazon Apps dataset and calculated RMSE.
+
 # Background
 
 Recommender Systems mainly rely on human feedback in the form of ratings and reviews. Hence, the system suffers through the problem of cold start where new user or item does not have much of the feedback available. This makes the initial feedback a lot invaluable. Intuitively, one review gives a lot more information about the user compared to one rating.
@@ -124,7 +126,18 @@ Our metrics for evaluation are Root Mean Squared Error (RMSE) and Mean Absolute 
 
 ***
 
+# Challenges
 
+* Creating a test set such that all items & users are in the train set too.
+* Creating an automated Amazon ASIN lookup tool  which is usually a paid service
+* LDA Topics are not well defined for the dataset we chose.
+* No ground truth for the predictions by using review texts only.
+
+# Ethical Considerations 
+
+* Recommending violent/inappropriate apps to children?
+* User profiles used for personalized recommendation may be used for malicious purposes
+* Profile injection is also a possible attack to push or nuke items.
 
 # Technologies Used
 
