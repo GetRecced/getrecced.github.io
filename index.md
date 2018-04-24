@@ -116,7 +116,7 @@ Our metrics for evaluation are Root Mean Squared Error (RMSE) and Mean Absolute 
 
 ## Findings
 
-![Table Results](https://github.com/GetRecced/IR670_Spring2018/blob/master/Images/Results/Results%20Table.png)
+![Table Results](https://raw.githubusercontent.com/GetRecced/IR670_Spring2018/master/Images/Results/Results%20Table.png)
 
 * In line with our original hypothesis, we can see that using the review text in combination with the numerical ratings hailed better results in terms of both RMSE and MAE.
 * The HFT model performed the best with an **RMSE of 1.1** on the whole 750K reviews, and an **RMSE of 1.02** on 20K reviews. 
