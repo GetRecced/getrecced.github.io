@@ -1,8 +1,19 @@
-# Dataset and Analysis
+# Background
+
+Recommender Systems mainly rely on human feedback in the form of ratings and reviews. Hence, the system suffers through the problem of cold start where new user or item does not have much of the feedback available. This makes the initial feedback a lot invaluable. Intuitively, one review gives a lot more information about the user compared to one rating.
+
+> In spite of the wealth of research on modeling ratings, the other form of feedback present on review websites—namely, the reviews themselves—is typically ignored. In our opinion, ignoring this rich source of information is a major shortcoming of existing work on recommender systems. Indeed, if our goal is to understand (rather than merely predict) how users rate products, we ought to rely on reviews, whose very purpose is for users to explain why they rated a product the way they did.<sup>[1]</sup>
+
+***
+
+
+
+
+# Dataset 
 
 ## Amazon App Dataset
 
-We used the “Apps for Android” 5-core Dataset which  contains both product ratings and reviews. The dataset  contains 752,937 entries with 87,271 users and 13,209  products (mobile apps). The data is from Amazon.com  and has been collected by Julian McAuley, UCSD.
+We used the “Apps for Android” 5-core Dataset which  contains both product ratings and reviews. The dataset  contains 752,937 entries with 87,271 users and 13,209  products (mobile apps). The data is from Amazon.com  and has been collected by Julian McAuley, UCSD. 
 Below is the snippet of the data:
 
 <pre><code>{
@@ -44,6 +55,9 @@ Below is the snippet of the data:
 
 ***
 
+
+
+
 # Results
 
 We compared our HFT model against 5 baseline methods. Each of the respective baseline method used has been explained in detail in the [[Methodology]] section. 
@@ -72,6 +86,8 @@ Our metrics for evaluation are Root Mean Squared Error (RMSE) and Mean Absolute 
 * Additionally, it is interesting to note that most of our baseline methods (using only ratings) performed either better or roughly the same on the larger dataset, whereas the HFT model performed slightly worse. 
 
 ***
+
+
 
 # Technologies Used
 
@@ -103,6 +119,10 @@ We outline below at a high level what programming languages we used, as well as 
 | Requests| Hitting URLs for Asin lookup|
 | BeautifulSoup| HTML Parsing |
 | pyLDAvis | Visualization of LDA topics |
+
+
+***
+
 
 # References
 
