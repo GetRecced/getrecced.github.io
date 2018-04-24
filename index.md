@@ -126,14 +126,28 @@ Our metrics for evaluation are Root Mean Squared Error (RMSE) and Mean Absolute 
 
 ***
 
-# Challenges
+# Discussion
 
+# Challenges
 * Creating a test set such that all items & users are in the train set too.
 * Creating an automated Amazon ASIN lookup tool  which is usually a paid service
 * LDA Topics are not well defined for the dataset we chose.
 * No ground truth for the predictions by using review texts only.
 
-# Ethical Considerations 
+## Takeaways
+* Baseline approach is a good approach to start with, as it gives good recommendations in short time.
+* In case of HFT, beyond a certain value, increasing the number of topics gives negligible improvements in RMSE.
+* Using review topics in conjunction with ratings gives out better recommendations than traditional  methods.
+* It is difficult to make accurate predictions by relying solely on review text and biases (LDA).
+* HFT is dataset dependent - some categories of  items have reviews that better express the  subjective tastes of the user/properties of the item
+* App reviews are short and to-the-point, and mostly positive.
+
+## Future Work
+
+* Word2Vec or GloVe can be used as part of hidden  topic extraction from reviews
+* The HFT model may be adapted to work with implicit data instead of ratings, along with just reviews.
+
+## Ethical Considerations 
 
 * Recommending violent/inappropriate apps to children?
 * User profiles used for personalized recommendation may be used for malicious purposes
