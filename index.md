@@ -203,9 +203,11 @@ York, NY, USA, 165-172. DOI=<a href="http://dx.doi.org/10.1145/2507157.2507163">
 [5] Breese, John S., David Heckerman, and Carl Kadie. "Empirical analysis of predictive algorithms for collaborative filtering." Proceedings of the Fourteenth conference on Uncertainty in artificial intelligence. Morgan Kaufmann Publishers Inc., 1998. URL: https://dl.acm.org/citation.cfm?id=2074100
 
 <script>
+document.onload = function() {
 $(".wrapper nav ul").children().each(function(index) {
 	if ($(this).hasClass("tag-h2") || $(this).hasClass("tag-h3")) {
 		$(this).remove()
 	}
 })
+}
 </script>
