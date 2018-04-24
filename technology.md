@@ -1,3 +1,5 @@
+# Technology Used
+
 Being a Graduate Course in Computer Science and Engineering (CSE) at Texas A&M University, the CSCE 670 - Information Storage and Retrieval course would obviously require us to write code as a part of the submission.
 
 We outline below at a high level what programming languages we used, as well as which libraries and what purpose they were used for.
