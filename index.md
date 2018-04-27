@@ -7,7 +7,9 @@ Recommender Systems mainly rely on human feedback in the form of ratings and rev
 > In spite of the wealth of research on modeling ratings, the other form of feedback present on review websites—namely, the reviews themselves—is typically ignored. In our opinion, ignoring this rich source of information is a major shortcoming of existing work on recommender systems. Indeed, if our goal is to understand (rather than merely predict) how users rate products, we ought to rely on reviews, whose very purpose is for users to explain why they rated a product the way they did.<sup>[1]</sup>
 
 <br>
+
 ***
+
 <br>
 
 
@@ -57,7 +59,9 @@ Below is the snippet of the data:
 </table>
 
 <br>
+
 ***
+
 <br>
 
 
@@ -117,7 +121,9 @@ HFT model takes advantage of both ratings and reviews by combining latent factor
 
 
 <br>
+
 ***
+
 <br>
 
 
@@ -138,7 +144,9 @@ Our metrics for evaluation are Root Mean Squared Error (RMSE) and Mean Absolute 
 ![MAE](https://cdn-images-1.medium.com/max/1600/1*OVlFLnMwHDx08PHzqlBDag.gif)
 
 <br>
+
 ***
+
 <br> 
 
 ## Findings
@@ -152,7 +160,9 @@ Our metrics for evaluation are Root Mean Squared Error (RMSE) and Mean Absolute 
 * Additionally, it is interesting to note that most of our baseline methods (using only ratings) performed either better or roughly the same on the larger dataset, whereas the HFT model performed slightly worse. 
 
 <br>
+
 ***
+
 <br>
 
 # Discussion
@@ -183,7 +193,9 @@ Our metrics for evaluation are Root Mean Squared Error (RMSE) and Mean Absolute 
 * Profile injection is also a possible attack to push or nuke items.
 
 <br>
+
 ***
+
 <br>
 
 # Technologies Used
@@ -219,7 +231,9 @@ We outline below at a high level what programming languages we used, as well as 
 
 
 <br>
+
 ***
+
 <br>
 
 
