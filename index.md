@@ -2,6 +2,8 @@ In this project we examined how recommender systems work (better or worse) if we
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/mZSO-7pSNu0?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
+<br>
+
 # Background
 <br>
 Recommender Systems mainly rely on human feedback in the form of ratings and reviews. Hence, the system suffers through the problem of cold start where new user or item does not have much of the feedback available. This makes the initial feedback a lot invaluable. Intuitively, one review gives a lot more information about the user compared to one rating.
@@ -45,6 +47,7 @@ Below is the snippet of the data:
     "reviewTime": "12 5, 2011"
 }</code></pre>
 
+<br>
 
 ## Analysis
 
@@ -239,6 +242,10 @@ We outline below at a high level what programming languages we used, as well as 
 ***
 
 <br>
+
+# Poster
+
+<tr><td><img src='https://github.com/GetRecced/IR670_Spring2018/blob/master/Poster/Poster%20Final.jpg'></td></tr>
 
 
 # References
