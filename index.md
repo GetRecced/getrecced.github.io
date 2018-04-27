@@ -1,7 +1,7 @@
 In this project we examined how recommender systems work (better or worse) if we take advantage of the review texts along with the review ratings. We aimed to combine latent ratings with latent review topics and analyze the results. Our assumption was that combining the review text with ratings would help the recommender system make better predictions. Hence, we compared different models on Amazon Apps dataset and calculated RMSE.
 
 # Background
-
+<br>
 Recommender Systems mainly rely on human feedback in the form of ratings and reviews. Hence, the system suffers through the problem of cold start where new user or item does not have much of the feedback available. This makes the initial feedback a lot invaluable. Intuitively, one review gives a lot more information about the user compared to one rating.
 
 > In spite of the wealth of research on modeling ratings, the other form of feedback present on review websites—namely, the reviews themselves—is typically ignored. In our opinion, ignoring this rich source of information is a major shortcoming of existing work on recommender systems. Indeed, if our goal is to understand (rather than merely predict) how users rate products, we ought to rely on reviews, whose very purpose is for users to explain why they rated a product the way they did.<sup>[1]</sup>
@@ -15,7 +15,7 @@ Recommender Systems mainly rely on human feedback in the form of ratings and rev
 
 
 # Dataset 
-
+<br>
 ## Amazon Apps
 
 We used the “Apps for Android” 5-core Dataset which  contains both product ratings and reviews. The dataset  contains 752,937 entries with 87,271 users and 13,209  products (mobile apps). The data is from Amazon.com  and has been collected by Julian McAuley, UCSD. 
@@ -66,7 +66,7 @@ Below is the snippet of the data:
 
 
 # Methodology
-
+<br>
 ### Preprocessing
 * The dataset has the special property that each product has at least 5 reviews/ratings and each user has given at least 5 reviews/ratings.
 * For splitting between training and testing data, we moved at least 1 review per user and at least 1 review per product to the test dataset and remaining to the train dataset.
@@ -86,7 +86,9 @@ We started with this approach to see what results we get if we use a model as st
 Formula:
 
 ![Global Average Mean](https://github.com/GetRecced/getrecced.github.io/blob/master/images/UserMean.png?raw=true)
+
 ***
+
 #### Baseline Model
 This model is an improvement over the first one. In addition to the global average, we also consider a user bias and a movie bias while prediction.
 
@@ -129,7 +131,7 @@ HFT model takes advantage of both ratings and reviews by combining latent factor
 
 
 # Results
-
+<br>
 We compared our HFT model against 5 baseline methods. Each of the respective baseline method used has been explained in detail in the [[Methodology]] section. 
 
 ## Evaluation Metric
@@ -166,7 +168,7 @@ Our metrics for evaluation are Root Mean Squared Error (RMSE) and Mean Absolute 
 <br>
 
 # Discussion
-
+<br>
 ## Challenges
 * Creating a test set such that all items & users are in the train set too.
 * Creating an automated Amazon ASIN lookup tool  which is usually a paid service
@@ -199,7 +201,7 @@ Our metrics for evaluation are Root Mean Squared Error (RMSE) and Mean Absolute 
 <br>
 
 # Technologies Used
-
+<br>
 Being a Graduate Course in Computer Science and Engineering (CSE) at Texas A&M University, the CSCE 670 - Information Storage and Retrieval course would obviously require us to write code as a part of the submission.
 
 We outline below at a high level what programming languages we used, as well as which libraries and what purpose they were used for.
@@ -238,7 +240,7 @@ We outline below at a high level what programming languages we used, as well as 
 
 
 # References
-
+<br>
 [1] Julian McAuley and Jure Leskovec. 2013. Hidden factors and hidden topics: understanding rating dimensions
 with review text. In Proceedings of the 7th ACM conference on Recommender systems (RecSys '13). ACM, New
 York, NY, USA, 165-172. DOI=<a href="http://dx.doi.org/10.1145/2507157.2507163">http://dx.doi.org/10.1145/2507157.2507163</a>
