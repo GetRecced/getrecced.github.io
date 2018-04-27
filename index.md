@@ -245,7 +245,7 @@ We outline below at a high level what programming languages we used, as well as 
 
 # Poster
 
-<tr><td><img src='https://github.com/GetRecced/IR670_Spring2018/blob/master/Poster/Poster%20Final.jpg'></td></tr>
+<tr><td><img src="{{"images/Poster Final.jpg"}}"></td></tr>
 
 
 # References
