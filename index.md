@@ -7,7 +7,8 @@ Recommender Systems mainly rely on human feedback in the form of ratings and rev
 > In spite of the wealth of research on modeling ratings, the other form of feedback present on review websites—namely, the reviews themselves—is typically ignored. In our opinion, ignoring this rich source of information is a major shortcoming of existing work on recommender systems. Indeed, if our goal is to understand (rather than merely predict) how users rate products, we ought to rely on reviews, whose very purpose is for users to explain why they rated a product the way they did.<sup>[1]</sup>
 
 ***
-
+<br>
+<br>
 
 
 
