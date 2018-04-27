@@ -76,19 +76,32 @@ We Compared and evaluated the following recommendation models:
 #### Global Average Model
 We started with this approach to see what results we get if we use a model as straightforward as this one. In this, we predict the global average as the rating for each user-item pair.
 
+Formula:
+
+![Global Average Mean](https://github.com/GetRecced/getrecced.github.io/blob/master/images/UserMean.png?raw=true)
+
 #### Baseline Model
 This model is an improvement over the first one. In addition to the global average, we also consider a user bias and a movie bias while prediction.
+
+![Baseline](https://github.com/GetRecced/getrecced.github.io/blob/master/images/Baseline.png?raw=true)
 
 #### Collaborative Filtering
 In this approach we considered user-user collaborative filtering. We have used Pearson correlation to calculate similarity between two users. Also, we use 10 nearest neighbor approach for predicting the rating and for the recommendations. 
 
+![Collaborative Filtering](https://github.com/GetRecced/getrecced.github.io/blob/master/images/CF.png?raw=true)
+
 #### Latent Dirichlet Allocation (LDA)
 Every word in a review texts belongs to one or more topics. Using LDA, we can only observe the text and words,  not the topic themselves. We tried to find these hidden topics in the text reviews and below is the distribution of these topics. 
-![LDA](https://github.com/GetRecced/IR670_Spring2018/blob/master/Images/Data%20Analysis/LDA_Topics.png)
+![LDA](https://raw.githubusercontent.com/GetRecced/IR670_Spring2018/master/Images/Data%20Analysis/LDA_Topics.png)
 Once we get the word distribution per topic, for each document we calculate the topic distributions. Here, all the reviews on one product are considered as one document. Similarly, all the reviews given by one user are considered as one document.
+
+![LDA](https://github.com/GetRecced/getrecced.github.io/blob/master/images/LatentFactorModel.png?raw=true)
+
 
 #### Hidden Factors as Topics (HFT)
 HFT model takes advantage of both ratings and reviews by combining latent factor model and latent dirichlet allocation model. Here, for each user and item, we calculate 5 latent factors which are also known as user preferences and product properties. The weights for these factors are learnt by considering the reviews in addition to global average ratings and biases.
+
+![HFT](https://github.com/GetRecced/getrecced.github.io/blob/master/images/HFT%20Model.png?raw=true)
 
 ### Reverse ASIN Lookup
 
