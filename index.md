@@ -1,6 +1,6 @@
 In this project we examined how recommender systems work (better or worse) if we take advantage of the review texts along with the review ratings. We aimed to combine latent ratings with latent review topics and analyze the results. Our assumption was that combining the review text with ratings would help the recommender system make better predictions. Hence, we compared different models on Amazon Apps dataset and calculated RMSE.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/mZSO-7pSNu0?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mZSO-7pSNu0?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 # Background
 <br>
