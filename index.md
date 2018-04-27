@@ -247,6 +247,7 @@ We outline below at a high level what programming languages we used, as well as 
 
 <tr><td><img src="{{"images/Poster Final.jpg"}}"></td></tr>
 
+<br>
 
 # References
 <br>
