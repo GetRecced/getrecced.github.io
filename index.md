@@ -1,5 +1,7 @@
 In this project we examined how recommender systems work (better or worse) if we take advantage of the review texts along with the review ratings. We aimed to combine latent ratings with latent review topics and analyze the results. Our assumption was that combining the review text with ratings would help the recommender system make better predictions. Hence, we compared different models on Amazon Apps dataset and calculated RMSE.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mZSO-7pSNu0?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
 # Background
 <br>
 Recommender Systems mainly rely on human feedback in the form of ratings and reviews. Hence, the system suffers through the problem of cold start where new user or item does not have much of the feedback available. This makes the initial feedback a lot invaluable. Intuitively, one review gives a lot more information about the user compared to one rating.
